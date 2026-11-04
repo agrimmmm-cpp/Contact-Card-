@@ -124,7 +124,7 @@ function sendFollowUp_(to, name) {
   const html =
     '<div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5;color:#222">' +
     '<p>' + e(greeting) + '</p>' +
-    '<p>Great meeting you at ' + e(CONFIG.EVENT_NAME) + '! Thanks for stopping by. ' +
+    '<p>Great meeting you at ' + e(CONFIG.EVENT_NAME) + '! Thanks for taking the time to chat. ' +
     "I'm a " + e(CONFIG.HEADLINE.toLowerCase()) + " looking for software development and AI opportunities, " +
     'and here are my links:</p>' +
     '<ul>' +
@@ -138,7 +138,7 @@ function sendFollowUp_(to, name) {
     '<p>Best,<br>' + e(CONFIG.FULL_NAME) + '<br>' + e(CONFIG.SCHOOL) + '</p>' +
     '</div>';
 
-  const text = greeting + '\n\nGreat meeting you at ' + CONFIG.EVENT_NAME + '! Thanks for stopping by.\n\n' +
+  const text = greeting + '\n\nGreat meeting you at ' + CONFIG.EVENT_NAME + '! Thanks for taking the time to chat.\n\n' +
     'LinkedIn: ' + CONFIG.LINKEDIN_URL + '\nPortfolio: ' + CONFIG.PORTFOLIO_URL +
     '\nResume: ' + CONFIG.RESUME_URL + "\n\nI'll reach out personally to connect on LinkedIn. You can also reach me at my SFU email, " +
     CONFIG.EMAIL + ", which I'll follow up from.\n\nBest,\n" + CONFIG.FULL_NAME;
